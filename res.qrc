@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/title/close.png</file>
+        <file>resources/title/hide.png</file>
+        <file>resources/title/max.png</file>
+        <file>resources/title/mini.png</file>
+        <file>resources/appIcon/cloudMusic.png</file>
+        <file>resources/title/avatar.jpg</file>
+        <file>resources/title/vip.png</file>
+        <file>resources/title/arrow.png</file>
+        <file>resources/title/message.png</file>
+        <file>resources/title/setting.png</file>
+        <file>resources/title/skin.png</file>
+        <file>resources/title/record.png</file>
+        <file>resources/title/hot.png</file>
+        <file>resources/title/logo.png</file>
+        <file>resources/title/search.png</file>
+        <file>resources/searchPopup/remove.png</file>
+        <file>resources/title/maxed.png</file>
+        <file>resources/loginPoup/loginTip.png</file>
+        <file>resources/loginPoup/qrCode.png</file>
+        <file>resources/loginPoup/clear.png</file>
+        <file>resources/loginPoup/nosee.png</file>
+        <file>resources/loginPoup/QQ_hover.png</file>
+        <file>resources/loginPoup/QQ_normal.png</file>
+        <file>resources/loginPoup/see.png</file>
+        <file>resources/loginPoup/sina_hover.png</file>
+        <file>resources/loginPoup/sina_normal.png</file>
+        <file>resources/loginPoup/wx_hover.png</file>
+        <file>resources/loginPoup/wx_normal.png</file>
+        <file>resources/loginPoup/wy_hover.png</file>
+        <file>resources/loginPoup/wy_normal.png</file>
+        <file>resources/setting/svip.png</file>
+        <file>resources/setting/vip.png</file>
+    </qresource>
+</RCC>

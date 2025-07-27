@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>src/leftPage/LeftPage.qml</file>
+        <file>src/bottomPage/BottomPage.qml</file>
+        <file>src/rightPage/RightPage.qml</file>
+        <file>src/commonUI/CloudMusicWindow.qml</file>
+        <file>src/title/MiniAndMax.qml</file>
+        <file>src/title/UserIconAndSetting.qml</file>
+        <file>src/title/Search.qml</file>
+        <file>src/basic/BasicConfig.qml</file>
+        <file>src/basic/qmldir</file>
+        <file>src/commonUI/CloudMusicSearchBox.qml</file>
+        <file>src/commonUI/CloudMusicSearchPopup.qml</file>
+        <file>src/commonUI/CloudMusicLoginPoup.qml</file>
+        <file>src/commonUI/loginPopupBg/QrCodeBg.qml</file>
+        <file>src/commonUI/loginPopupBg/OtherLoginBg.qml</file>
+        <file>src/rightPage/TopTitle.qml</file>
+        <file>src/rightPage/stakPages/CherryPick.qml</file>
+        <file>src/rightPage/stakPages/Setting.qml</file>
+        <file>src/rightPage/stakPages/settingItem/Account.qml</file>
+        <file>src/rightPage/stakPages/settingItem/Regular.qml</file>
+        <file>src/commonUI/CloudMusicSettingComboBox.qml</file>
+        <file>src/commonUI/CloudMusicRadioButton.qml</file>
+        <file>src/commonUI/CloudMusicRadioButton2.qml</file>
+        <file>src/rightPage/stakPages/settingItem/System.qml</file>
+        <file>src/rightPage/stakPages/settingItem/Play.qml</file>
+        <file>src/rightPage/stakPages/settingItem/MsgAndPrivacy.qml</file>
+        <file>src/rightPage/stakPages/settingItem/QuickKey.qml</file>
+        <file>src/commonUI/CloudMusicKeyTextField.qml</file>
+        <file>src/rightPage/stakPages/settingItem/QualityAndDownLoad.qml</file>
+        <file>src/commonUI/CloudMusicButton.qml</file>
+        <file>src/commonUI/CloudMusicSlider.qml</file>
+        <file>src/rightPage/stakPages/settingItem/DesktopAndLyric.qml</file>
+        <file>src/commonUI/CloudMusicLyricColorPopup.qml</file>
+        <file>src/rightPage/stakPages/settingItem/Tools.qml</file>
+        <file>src/rightPage/stakPages/settingItem/AboutCloudMusic.qml</file>
+    </qresource>
+</RCC>
