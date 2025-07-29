@@ -58,54 +58,70 @@ Rectangle {
         height: tipImg.height
         property int imgSpacing: 15
         property int tipImgPosX: (parent.width - (tipImg.width + qrCodeImg.width + imgSpacing)) / 2
-        property int qrCodeImgPosX: tipImg.x + tipImg.width + imgSpacing
+        property int qrCodeImgPosX: tipImgPosX + tipImg.width + imgSpacing
 
-        Image {
+        Rectangle {
             id: tipImg
             x: parent.tipImgPosX
-            source: "qrc:/resources/loginPoup/loginTip.png"
-        }
+            width: 171
+            height: 293
 
-        Image {
-            id: qrCodeImg
-            x: parent.qrCodeImgPosX
-            // anchors.verticalCenter: parent.verticalCenter
-            source: "qrc:/resources/loginPoup/qrCode.png"
-
-            MouseArea {
+            Image {
                 anchors.fill: parent
-                hoverEnabled: true
-
-                onEntered: {
-                    showTipImgAni.start()
-
-                    //二维码文字样式和位置修改
-                    qrCodeTextRow.width = innerRow.width + codeLoginText.width + 5
-                    qrCodeTextRow.anchors.topMargin = qrCodeImg.height / 4
-                    useText.color = "#bababc"
-                    codeLoginText.color = "#bababc"
-                    appText.color = "white"
-                    codeLoginText.x = innerRow.x + innerRow.width + 5
-                    codeLoginText.y = innerRow.y
-                }
-
-                onExited: {
-                    unShowTipImgAni.start()
-
-                    //二维码文字样式和位置还原
-                    qrCodeTextRow.width = innerRow.width
-                    qrCodeTextRow.anchors.topMargin = 10
-                    useText.color = "white"
-                    codeLoginText.color = "white"
-                    appText.color = "cornflowerblue"
-                    codeLoginText.x = (innerRow.width - codeLoginText.width) / 2
-                    codeLoginText.y = innerRow.y + innerRow.height + 5
-                }
+                source: "qrc:/resources/loginPoup/loginTip.jpg"
             }
 
-            Component.onCompleted:  {
-                // 解决tipImg改变x时把qrCodeImg推动的问题
-                loginImgRow.qrCodeImgPosX = x
+            Component.onCompleted: {
+                parent.qrCodeImgPosX = parent.tipImgPosX + width + parent.imgSpacing
+            }
+        }
+
+        Rectangle {
+            id: qrCodeImg
+            x: parent.qrCodeImgPosX
+            width: 170
+            height: width
+
+            Image {
+                anchors.fill: parent
+                // anchors.verticalCenter: parent.verticalCenter
+                source: "qrc:/resources/loginPoup/qrCode.png"
+
+                MouseArea {
+                    anchors.fill: parent
+                    hoverEnabled: true
+
+                    onEntered: {
+                        showTipImgAni.start()
+
+                        //二维码文字样式和位置修改
+                        qrCodeTextRow.width = innerRow.width + codeLoginText.width + 5
+                        qrCodeTextRow.anchors.topMargin = qrCodeImg.height / 4
+                        useText.color = "#bababc"
+                        codeLoginText.color = "#bababc"
+                        appText.color = "white"
+                        codeLoginText.x = innerRow.x + innerRow.width + 5
+                        codeLoginText.y = innerRow.y
+                    }
+
+                    onExited: {
+                        unShowTipImgAni.start()
+
+                        //二维码文字样式和位置还原
+                        qrCodeTextRow.width = innerRow.width
+                        qrCodeTextRow.anchors.topMargin = 10
+                        useText.color = "white"
+                        codeLoginText.color = "white"
+                        appText.color = "cornflowerblue"
+                        codeLoginText.x = (innerRow.width - codeLoginText.width) / 2
+                        codeLoginText.y = innerRow.y + innerRow.height + 5
+                    }
+                }
+
+                Component.onCompleted:  {
+                    // 解决tipImg改变x时把qrCodeImg推动的问题
+                    loginImgRow.qrCodeImgPosX = x
+                }
             }
         }
 

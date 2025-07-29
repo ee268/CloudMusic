@@ -124,7 +124,7 @@ Item {
 
             clip: true
             //内容高度
-            contentHeight: 4800
+            contentHeight: settingCol.implicitHeight + 100
             //重写垂直滚动条样式
             ScrollBar.vertical: ScrollBar {
                 //滚动条位置
@@ -143,6 +143,7 @@ Item {
             }
 
             Column {
+                id: settingCol
                 anchors.fill: parent
                 anchors.topMargin: 30
                 spacing: 30

@@ -16,7 +16,7 @@
         <file>src/commonUI/loginPopupBg/QrCodeBg.qml</file>
         <file>src/commonUI/loginPopupBg/OtherLoginBg.qml</file>
         <file>src/rightPage/TopTitle.qml</file>
-        <file>src/rightPage/stakPages/CherryPick.qml</file>
+        <file>src/rightPage/stakPages/Recommend.qml</file>
         <file>src/rightPage/stakPages/Setting.qml</file>
         <file>src/rightPage/stakPages/settingItem/Account.qml</file>
         <file>src/rightPage/stakPages/settingItem/Regular.qml</file>
@@ -35,5 +35,8 @@
         <file>src/commonUI/CloudMusicLyricColorPopup.qml</file>
         <file>src/rightPage/stakPages/settingItem/Tools.qml</file>
         <file>src/rightPage/stakPages/settingItem/AboutCloudMusic.qml</file>
+        <file>src/commonUI/FontGrade.qml</file>
+        <file>src/rightPage/stakPages/recomItem/TopCarousel.qml</file>
+        <file>src/rightPage/stakPages/recomItem/PickoutRecom.qml</file>
     </qresource>
 </RCC>

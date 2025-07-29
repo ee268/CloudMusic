@@ -17,6 +17,7 @@ QtObject {
     property color unFinishedLyricsDownColor: "#ddd"                            //未播放歌词的下渐变颜色
     property color unFinishedLyricsBorderColor: "white"                         //未播放歌词的边框颜色
     property int openLyricColorPopupModel: 0 //打开已播放窗口-0，未播放窗口-1
+    property int recoPagePadding: 45 //推荐页左右内边距
 
     signal openLyricColorPopup() //打开歌词颜色选择弹窗
     signal closeLyricColorPopup() //关闭歌词颜色选择弹窗

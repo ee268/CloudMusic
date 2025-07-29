@@ -40,8 +40,10 @@ Rectangle {
         anchors.leftMargin: 7
         anchors.topMargin: 7
         radius: parent.radius
-        width: backImgBtn.width * backImgBtn.scale
-        height: backImgBtn.height * backImgBtn.scale
+        // width: backImgBtn.width * backImgBtn.scale
+        // height: backImgBtn.height * backImgBtn.scale
+        width: 80
+        height: width
 
         MouseArea {
             anchors.fill: parent

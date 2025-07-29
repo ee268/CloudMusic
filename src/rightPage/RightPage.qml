@@ -24,6 +24,6 @@ Rectangle {
         clip: true
 
         //初始界面
-        initialItem: "qrc:/src/rightPage/stakPages/CherryPick.qml"
+        initialItem: "qrc:/src/rightPage/stakPages/Recommend.qml"
     }
 }

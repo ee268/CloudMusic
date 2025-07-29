@@ -10,6 +10,24 @@ Popup {
         color: "transparent"
     }
 
+    enter: Transition {
+        NumberAnimation {
+            property: "scale"
+            from: 0.0
+            to: 1.0
+            duration: 150
+        }
+    }
+
+    exit: Transition {
+        NumberAnimation {
+            property: "scale"
+            from: 1.0
+            to: 0.0
+            duration: 150
+        }
+    }
+
     ColorDialog {
         id: colorDialog
         title: "颜色"

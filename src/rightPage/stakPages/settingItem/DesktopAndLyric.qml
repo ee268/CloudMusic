@@ -331,6 +331,7 @@ Column {
                             }
 
                             Label {
+                                id: previewTextL1
                                 anchors.fill: previewText1
                                 text: previewText1.text
                                 font: previewText1.font

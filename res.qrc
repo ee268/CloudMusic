@@ -17,7 +17,6 @@
         <file>resources/title/search.png</file>
         <file>resources/searchPopup/remove.png</file>
         <file>resources/title/maxed.png</file>
-        <file>resources/loginPoup/loginTip.png</file>
         <file>resources/loginPoup/qrCode.png</file>
         <file>resources/loginPoup/clear.png</file>
         <file>resources/loginPoup/nosee.png</file>
@@ -32,5 +31,30 @@
         <file>resources/loginPoup/wy_normal.png</file>
         <file>resources/setting/svip.png</file>
         <file>resources/setting/vip.png</file>
+        <file>resources/loginPoup/loginTip.jpg</file>
+        <file>resources/setting/github.png</file>
+        <file>resources/carouselImg/1.jpg</file>
+        <file>resources/carouselImg/2.jpg</file>
+        <file>resources/carouselImg/3.jpg</file>
+        <file>resources/carouselImg/4.jpg</file>
+        <file>resources/carouselImg/5.jpg</file>
+        <file>resources/carouselImg/6.jpg</file>
+        <file>resources/carouselImg/7.jpg</file>
+        <file>resources/carouselImg/8.jpg</file>
+        <file>resources/carouselImg/9.jpg</file>
+        <file>resources/carouselImg/10.jpg</file>
+        <file>resources/carouselImg/11.jpg</file>
+        <file>resources/recommend/refresh.png</file>
+        <file>resources/carouselImg2/Cartethyia1.jpg</file>
+        <file>resources/carouselImg2/Cartethyia2.jpg</file>
+        <file>resources/carouselImg2/Cartethyia3.jpg</file>
+        <file>resources/carouselImg2/Cartethyia4.jpg</file>
+        <file>resources/carouselImg2/Cartethyia5.jpg</file>
+        <file>resources/carouselImg2/Cartethyia6.jpg</file>
+        <file>resources/carouselImg2/Cartethyia7.jpg</file>
+        <file>resources/carouselImg2/Cartethyia8.jpg</file>
+        <file>resources/carouselImg2/Cartethyia9.jpg</file>
+        <file>resources/carouselImg2/Cartethyia10.jpg</file>
+        <file>resources/recommend/play.png</file>
     </qresource>
 </RCC>

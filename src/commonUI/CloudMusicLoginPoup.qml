@@ -45,24 +45,24 @@ Popup {
         }
 
         //可拖动弹窗
-        MouseArea {
-            anchors.fill: parent
-            propagateComposedEvents: true
-            property point clickPos: "0, 0"
+        // MouseArea {
+        //     anchors.fill: parent
+        //     propagateComposedEvents: true
+        //     property point clickPos: "0, 0"
 
-            onPressed: function(mouse) {
-                clickPos = Qt.point(mouse.x, mouse.y)
-                // console.log(clickPos)
-                // mouse.accepted = false
-            }
+        //     onPressed: function(mouse) {
+        //         clickPos = Qt.point(mouse.x, mouse.y)
+        //         // console.log(clickPos)
+        //         // mouse.accepted = false
+        //     }
 
-            onPositionChanged: function(mouse) {
-                let delta = Qt.point(mouse.x - clickPos.x, mouse.y - clickPos.y)
+        //     onPositionChanged: function(mouse) {
+        //         let delta = Qt.point(mouse.x - clickPos.x, mouse.y - clickPos.y)
 
-                loginPopup.x += delta.x
-                loginPopup.y += delta.y
-            }
-        }
+        //         loginPopup.x += delta.x
+        //         loginPopup.y += delta.y
+        //     }
+        // }
     }
 
     onClosed: {
